@@ -76,13 +76,17 @@ Go into the repo
 
 ```cd <repo_name>```
 
-Clone the conda environment that has all the needed packages and dependencies.
+Create the conda environment that has all the needed packages and dependencies.
 
 ```conda env update```
 
 If the environment name is <env_name>, activate it
 
 ```conda activate <env_name>```
+
+Add JupyterThemes (if installed)
+
+```pip install jupyterthemes```
 
 Run the Jupyter Notebooks
 
