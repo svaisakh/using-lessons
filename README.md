@@ -52,11 +52,14 @@ Hide the directory
 
 Checkout the ```develop``` branch.
 
-```git checkout develop```
+```
+cd .magnet
+git checkout develop
+```
 
 Add the directory to the ```$PYTHONPATH``` variable by adding the following line to your ```.bashrc``` (Ubuntu) / ```.bash_profile``` (macOS)
 
-```export PYTHONPATH=$PYTHONPATH:~/magnet```
+```export PYTHONPATH=$PYTHONPATH:~/.magnet```
 
 Update by running
 
