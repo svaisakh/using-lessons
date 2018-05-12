@@ -32,7 +32,7 @@ This will make plots and figure outputs centred.
 Additionaly, if you've used JupyterThemes, you can style the plots by calling ```jtplot_style()```, included with the startup script once at the top of your notebook.
 
 ### Startup Script
-Place ```startup.py``` from this repository into your ```~/.ipython/profile_default/startup``` folder.
+Place ```startup.ipy``` from this repository into your ```~/.ipython/profile_default/startup``` folder.
 
 This will do all the necessary common setup including importing frequently used modules and setting up useful global variables and functions.
 

@@ -1,0 +1,29 @@
+# for auto-reloading external modules
+# see http://stackoverflow.com/questions/1907993/autoreload-of-modules-in-ipython
+%load_ext autoreload
+%autoreload 2
+
+# Commonly used modules
+import numpy as np
+import matplotlib.pyplot as plt
+
+from matplotlib.pyplot import plot
+from tqdm import tqdm_notebook as tqdm
+
+# Plot figures inline
+%matplotlib inline
+
+# Common directories
+import sys
+from pathlib import Path
+DIR_NB = Path.cwd()
+DIR_MAIN = DIR_NB.parent
+sys.path.append(str(DIR_MAIN))
+DIR_DATA = Path('~/.data/MNIST').expanduser()
+
+# Only if jupyterthemes is installed
+try:
+    from jupyterthemes.jtplot import style as _jtplot_style
+    jtplot_style = lambda: _jtplot_style(context='notebook', figsize=(15, 10), fscale=2)
+    jtplot_style()
+except ImportError: pass
