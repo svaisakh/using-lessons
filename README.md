@@ -1,6 +1,6 @@
 # Using Jupyter Notebooks
 
-Install the jupyter notebook following the tutorial (here)[].
+Install the jupyter notebook following the tutorial [here](http://jupyter.readthedocs.io/en/latest/install.html).
 
 ### Add Notebook Extensions
 
