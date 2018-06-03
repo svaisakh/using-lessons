@@ -19,7 +19,7 @@ from pathlib import Path
 DIR_NB = Path.cwd()
 DIR_MAIN = DIR_NB.parent
 sys.path.append(str(DIR_MAIN))
-DIR_DATA = Path('~/.data/MNIST').expanduser()
+DIR_DATA = Path('~/.data').expanduser()
 
 # Only if jupyterthemes is installed
 try:
